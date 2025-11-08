@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatsApp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'wa-dark-teal': '#005C4B',
+              'wa-light-teal': '#008069',
+              'wa-message-green': '#D9FDD3',
+              'wa-message-green-dark': '#005C4B',
+              'wa-bg-light': '#F0F2F5',
+              'wa-bg-dark': '#111B21',
+              'wa-bg-panel-dark': '#202C33',
+              'wa-text-light': '#3B4A54',
+              'wa-text-dark': '#E9EDEF',
+              'wa-icon-light': '#54656F',
+              'wa-icon-dark': '#AEBAC1',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "ChatsApp",
+  "description": "A WhatsApp-like messaging application UI built with React and Tailwind CSS. It features a responsive, modern interface for one-to-one and group chats, showcasing a clean design with chat bubbles, a contact list, and a message input area.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
